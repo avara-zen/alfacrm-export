@@ -3,6 +3,8 @@ name = "alfacrm-export"
 version = "0.1.0"
 description = "Полная выгрузка данных AlfaCRM через v2api в SQLite, CSV и XLSX"
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
 authors = [
     { name = "avara" }
 ]
