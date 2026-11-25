@@ -1,0 +1,19 @@
+[project]
+name = "alfacrm-export"
+version = "0.1.0"
+description = "Полная выгрузка данных AlfaCRM через v2api в SQLite, CSV и XLSX"
+readme = "README.md"
+authors = [
+    { name = "avara" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "openpyxl>=3.1.5",
+]
+
+[project.scripts]
+alfacrm-export = "alfacrm_export.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
